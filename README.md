@@ -12,3 +12,8 @@ SqueezeNet 在 ImageNet 上实现与 AlexNet 同等级别的精度，但 参数�
 ## SqueezeNet 结构
 图中分别为未修改的SqueezeNet, 带简单旁路的SqueezeNet, 带复杂旁路的SqueezeNet。
 ![图片2](./img/Screenshot%202024-10-22%20192856.png "图片2")
+
+###训练
+`python train_SqueezeNet.py --batch_size=128 --epoch=20 --lr=0.1 --m=0.9 --version=1 --wd=0.001`
+###测试
+`python test_SqueezeNet.py --batch_size=128 --epoch=20 --version=1`
