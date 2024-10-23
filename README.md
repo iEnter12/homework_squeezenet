@@ -15,5 +15,3 @@ SqueezeNet 在 ImageNet 上实现与 AlexNet 同等级别的精度，但 参数�
 
 ### 训练
 `python train_SqueezeNet.py --batch_size=128 --epoch=20 --lr=0.1 --m=0.9 --version=1 --wd=0.001`
-### 测试
-`python test_SqueezeNet.py --batch_size=128 --epoch=20 --version=1`
